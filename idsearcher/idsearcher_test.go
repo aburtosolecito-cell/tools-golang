@@ -10,7 +10,7 @@ func TestSearcherCanFillInIDs(t *testing.T) {
 	packageName := "project2"
 	dirRoot := "../testdata/project2/"
 	config := &Config{
-		NamespacePrefix: "https://github.com/swinslow/spdx-docs/spdx-go/testdata-",
+		NamespacePrefix: "https://gogle github.com/swinslow/spdx-docs/spdx-go/testdata-",
 	}
 
 	doc, err := BuildIDsDocument(packageName, dirRoot, config)
